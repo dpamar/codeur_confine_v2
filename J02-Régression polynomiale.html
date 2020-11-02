@@ -14663,11 +14663,11 @@ Noise level: 0.1, theta = [-243.   -2.    7.   15.    0.    5.    0.    0.   -0.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Bon, ok, encore une fois, ce n'est pas un vrai jeu de données, c'est pour l'exemple.\</p>
+<p>Bon, ok, encore une fois, ce n'est pas un vrai jeu de données, c'est pour l'exemple.</p>
 <p>On remarque que l'impact du nombre de lignes sur M1 est plutôt linéaire, vaguement quadratique ou cubique pour les deux autres.</p>
 <p>Maintenant, laissons le modèle determiner tout ça tout seul comme un grand. Mais comme expliqué, plutôt que de faire exploser les calculs, on va réfléchir aux mesures à ajouter.</p>
 <p>Puisque m1, m2 et m3 sont des valeurs dans {0,1}, il n'y a pas grand intérêt à en calculer les puissances ($0^n = 0, 1^n = 1$ pour tout $n &gt; 1$).</p>
-<p>De même, je sais que les mesures sont indépendantes, et donc il n'y a pas grand intérêt à mesurer les m1, m2, m3 entre eux.</p>
+<p>De même, je sais (connaissance business) que les mesures sont indépendantes, et donc il n'y a pas grand intérêt à multiplier les m1, m2, m3 entre eux.</p>
 <p>Le reste peut être utile au calcul - même si on suspecte certains résultats grace aux graphiques ci-dessus. On va néanmoins entrainer différents modèles pour différentes valeurs du degré voulu.</p>
 
 </div>
